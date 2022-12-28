@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+.bobo {
+    background-color: rgb(143, 252, 215);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+} 
+
+img {
+    width: 110px;
+    height: 40px;
+    margin: 30px ; 
+}
+ 
+img:hover {
+    opacity: 0.8;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.amaki {
+    margin-right: 50px;
+}
+
+.otaona {
+    display: flex;
+    list-style: none;  
+    margin-right: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.bola {
+    margin-right: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-right: 2px solid red;
+    padding-right: 15px;
+}
+
+.bola-link {
+    transition: all 0.6s;
+}
+
+.bola-link:hover {
+    color: rgb(247, 2, 2);
+    text-shadow: 8px 6px 2px rgb(255, 0, 221);
+}
+
+.oltinchi-bola {
+    border-right: 2px solid rgb(143, 252, 215);;
+}
+
+.azobolish-button {
+    padding: 14px 32px;
+    border: 2px solid rgb(19, 190, 3);
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(233, 126, 27);
+    margin-right: 30px;
+    color: rgb(121, 4, 136);
+    box-shadow: 20px 15px 20px rgb(0, 140, 255);
+    transition: all 0.6s;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(102, 57, 26);
+    text-shadow: 4px 0px 3px rgb(0, 140, 255);
+}
+
+.azobolish-button:hover {
+    opacity: 0.8;
+    border: 2px solid rgb(255, 38, 0);
+    box-shadow: 20px 15px 20px rgb(235, 89, 4);
+    background-color: rgb(255, 255, 0);
+    text-shadow: 4px 4px 3px rgb(13, 126, 3);
+}
+
+.button {
+    text-shadow: 4px 4px 4px ;
+}
+
+.con {
+    height: 700px;
+    width: 450px;
+    background-color: rgb(121, 29, 29);
+}
